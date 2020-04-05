@@ -43,7 +43,7 @@ if %L%==3 goto quit
   echo -----------------------------------------------------------------
   echo Enter MB of memory 
   echo usage to search for.
-  set /p /a M=:
+  set /p M=:
   set /a K = %M% * 1000
   echo Searching for programs
   echo with %K% kilobites
